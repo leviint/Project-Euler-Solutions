@@ -4,4 +4,33 @@
 # By considering the terms in the Fibonacci sequence whose values do not exceed four million, 
 # find the sum of the even-valued terms.
 
+# Last term before exceeding 4 million: term 33: 3.524.578
+
+def fibonacci(n):
+    if n == 0:
+        return 0
+
+    elif n == 1 or n == 2:
+        return 1
+    
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+
+
+terms = 33
+sum = 0
+
+
+for n in range(terms + 1):
+    value = fibonacci(n)
+    print(value)
+
+    if value % 2 == 0:
+        sum += value
+
+print('\nResult: ' + str(sum))
+
+# Solution: 4613732
+
+
 
