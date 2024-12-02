@@ -12,3 +12,5 @@ My main objective is to improve my mathematical and coding skills.
 1. [Multiples of 3 or 5](https://github.com/leviint/Project-Euler-Solutions/blob/main/solutions/1.py)
 
 2. [Even Fibonacci Numbers](https://github.com/leviint/Project-Euler-Solutions/blob/main/solutions/2.py)
+
+3. [Largest Prime Factor](https://github.com/leviint/Project-Euler-Solutions/blob/main/solutions/3.py)
