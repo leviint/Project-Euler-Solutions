@@ -7,8 +7,6 @@
 # 3-digit Palindromes can be either xxxxxx, xyyyyx, xyzzyx
 # Lychrel numbers may help?
 
-palindrome_list = []
-
 biggest_palindrome = 0
 
 for i in range(999, 99, -1):
