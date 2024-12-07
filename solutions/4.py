@@ -19,5 +19,8 @@ for i in range(999, 99, -1):
             is_palindrome = (str_product[0] == str_product[5]) and (str_product[1] == str_product[4]) and (str_product[2] == str_product[3])
             if is_palindrome and product > biggest_palindrome:
                 biggest_palindrome = product
+                factor1 = i
+                factor2 = j
 
+print(f"{factor1} x {factor2}")
 print(biggest_palindrome)
